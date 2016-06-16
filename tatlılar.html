@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Cooker</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="../css/jcarousel.css">
+
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+</head>
+
+<body>
+  
+<!-- LOGIN POP UPS -->
+<div id="popup-overlay"></div>
+<div class="popup" id="popup-login">
+	<h2>Login form</h2>
+	<hr class="separator">
+	<form method="post" action="" class="form clearfix">
+		<fieldset>
+			<label for="login-username">Username:</label>
+			<input type="text" name="" id="login-username" class="input text">
+			<label for="login-password">Password:</label>
+			<input type="password" name="" id="login-password" class="input text">
+		</fieldset>
+	</form>
+	<hr class="separator">
+	<button class="button submit">Login</button>
+	<div class="links"><a href="#">Forgotten password </a> | <a href="#" class="register-btn"> New account</a></div>
+	<a class="close" href="#"></a>
+</div>
+<div class="popup" id="popup-register">
+		<h2>Registration form</h2>
+		<hr class="separator">
+		<form method="post" action="" class="form clearfix">
+			<fieldset>
+				<label for="login-username">Username:</label>
+				<input type="text" name="" id="login-username" class="input text">
+				<label for="login-email">Email:</label>
+				<input type="text" name="" id="login-email" class="input text error" value="Error">
+				<label for="login-password">Password:</label>
+				<input type="password" name="" id="login-password" class="input text">
+				<label for="login-confirm-password">Confirm password:</label>
+				<input type="password" name="" id="login-confirm-password" class="input text">
+			</fieldset>
+		
+			<hr class="separator">
+			
+			<div class="checks">
+				<div class="check-row">
+					<label><input type="checkbox" class="input checkbox">I have read and agree to the <a href="#">Terms &amp; Conditions</a></label>
+				</div>
+				<div class="check-row">
+					<label><input type="checkbox" class="input checkbox">I agree to recieve promotional mails</label>
+				</div>
+			</div>
+
+			<button class="button submit">Register now</button>
+		</form>
+		<a class="close" href="#"></a>
+	</div>
+<!-- END LOGIN POP UPS -->
+  <div class='wrapper'>
+    <header>
+    
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="your logo" /></a>
+			<nav class="main-menu">
+				<ul>
+					<li id="lava-elm"></li>
+					<li class="current">
+						<a href="foto.html">ANASAYFA</a>
+						
+					</li>
+					<li>
+						<a href="foto.html">MENÜ</a>
+						<ul>
+							<li><a href="menu.html">Yiyecekler</a></li>
+							<li><a href="içecekler.html">İçecekler</a></li>
+							<li><a href="tatlılar.html">Tatlılar</a></li>
+							<li><a href="salatalar.html">Salatalar</a></li>
+						</ul>
+					</li>
+					<li><a href="foto.html">GALERİ</a></li>
+                                        <li><a href="foto.html">ANI DEFTERİ</a></li>
+					<li><a href="foto.html">HAKKIMIZDA</a></li>
+					<li><a href="foto.html">İLETİŞİM</a></li>
+				
+				</ul>
+			</nav>
+    </header>
+		<div class="content full-content clearfix">
+
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">ANASAYFA</a></li>
+					<li>Tatlılar</li>
+				</ul>
+			</div>
+			
+			<div class="product-menu-header">
+				<h2>Menu</h2>
+			</div>
+			
+			<div class="product-menu-holder">
+				<div>
+					<div class="left-part">
+						<h3>TATLILAR</h3>
+						<h4><span class="text">Şerbetli Tatlılar</span><span class="line"></span></h4>
+						<ul>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a>a</h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+						</ul>
+						<h3>TATLILAR</h3>
+						
+						<ul>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right-part">
+						<h3>TATLILAR</h3>
+						<h4><span class="text">Sütlü Tatlılar</span><span class="line"></span></h4>
+						<ul>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+						</ul>
+						<h4><span class="text">Coctails</span><span class="line"></span></h4>
+						<ul>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+							<li>
+								<div class="img-holder"><div class="canvas"></div><img src="images/meal-15.jpg" alt=""></div>
+								<div class="price">
+									<h5><a href="iletisim.html">Bubbly Iced Tea</a></h5>
+									<span>$5,99</span>
+								</div>
+								<div class="description">
+										Pellentesque eu ipsum in massa semper condimentum. 
+										Integer in augue vitae magna volutpat placerat sit amet 
+										eu nibh.	
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				<a href="#" class="prev">önceki</a>
+				<a href="#" class="next">sonraki</a>
+			</div>
+		</div>
+	</div>
+	
+		<footer>
+			<div class="footer-holder">
+				<a href="" class="logo">Cooker Logo</a>
+						<div class="newsletter">
+							<div class="quote">
+								<h6>ULUSOY TESİSLERİ</h6>
+								<p>İNSANLAR GERÇEK GÜÇLERİNDEN HABERSİZ...</p>
+								
+							</div>
+						</div>
+							<div class="links first">
+							<h6>BAĞLANTILAR</h6>
+							<ul>
+								<li class="facebook"><a href="#">Facebook</a></li>
+								<li class="twitter"><a href="#">Twitter</a></li>
+								<li class="rss"><a href="#">Rss feed</a></li>
+							</ul>
+						</div>
+						<div class="links">
+							<h6>İÇERİKLER</h6>
+							<ul>
+								<li><a href="#">Anasayfa</a></li>
+								<li><a href="#">Menü</a></li>
+								<li><a href="#">Galeri</a></li>
+								<li><a href="#">Hakkımızda</a></li>
+								<li><a href="#">Anı Defteri</a></li>
+								<li><a href="#">İletişim</a></li>
+							</ul>
+						</div>
+						<div class="links">
+							<h6>Menüler</h6>
+							<ul>
+								<li><a href="#">Yiyecekler</a></li>
+								<li><a href="#">İçecekler</a></li>
+								<li><a href="#">Tatlılar</a></li>
+								<li><a href="#">Salatalar</a></li>
+								
+							</ul>
+						</div>
+						<div class="credits clearfix">
+							Copyright &copy; 2011 Cooker. All rights reserved
+						</div>
+			</div>
+    </footer>		
+	<script type="text/javascript" src="js/libs/jquery-1.7.1.min.js"></script>
+  <script src="js/libs/jquery.easing.1.3.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/libs/jquery.jcarousel.min.js"></script>		
+</body>
+</html>
